@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "abs_cancel-rs",
+    "cantok_rs",
+    "gen_mcf2",
+]
+resolver = "3"

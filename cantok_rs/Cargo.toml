@@ -1,0 +1,10 @@
+[package]
+edition = "2024"
+name = "cantok_rs"
+version = "0.2.0"
+
+description = "Cancellation source and token for Rust and `abs_cancel`"
+repository = "https://github.com/ljsnogard/cancel_rs"
+keywords = ["async", "traits"]
+categories = ["no-std"]
+license = "MIT/Apache-2.0"

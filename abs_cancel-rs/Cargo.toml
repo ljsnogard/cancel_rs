@@ -1,0 +1,19 @@
+﻿[package]
+edition = "2024"
+name = "abs_cancel"
+version = "0.2.0"
+
+description = "ABStraction of Cancellation"
+repository = "https://github.com/ljsnogard/cancel_rs"
+categories = ["no-std"]
+license = "MIT/Apache-2.0"
+
+[features]
+ok_or = ["dep:pin-project"]
+default = ["ok_or"]
+
+[dependencies]
+pin-project = { version = "1", optional = true }
+
+[dev-dependencies]
+compio = { version = "0.19.*", features = ["fs", "macros", "time"] }
