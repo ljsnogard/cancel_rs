@@ -8,3 +8,7 @@ repository = "https://github.com/ljsnogard/cancel_rs"
 keywords = ["async", "traits"]
 categories = ["no-std"]
 license = "MIT/Apache-2.0"
+
+[dependencies]
+abs_cancel = { path = "../abs_cancel-rs" }
+atomic_sync = { git = "https://gitee.com/lino_snsalias/abs_sync.rs.git" }
