@@ -6,7 +6,7 @@ version = "0.2.0"
 description = "ABStraction of Cancellation"
 repository = "https://github.com/ljsnogard/cancel_rs"
 categories = ["no-std"]
-license = "MIT/Apache-2.0"
+license.workspace = true
 
 [features]
 ok_or = ["dep:pin-project"]

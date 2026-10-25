@@ -7,7 +7,7 @@ authors = ["lino <lino_snsalias@outlook.com>"]
 repository = "https://github.com/ljsnogard/cancel_rs"
 keywords = ["async"]
 categories = ["no-std"]
-license = "MIT/Apache-2.0"
+license.workspace = true
 description = """
 A macro working with crate `abs_cancel` v0.2 to generate codes and types needed to implement `Future`
 and `TrMayCancel` for a pattern that supports graceful cancellation in async programming.

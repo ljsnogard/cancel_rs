@@ -7,7 +7,7 @@ description = "Cancellation source and token for Rust and `abs_cancel`"
 repository = "https://github.com/ljsnogard/cancel_rs"
 keywords = ["async", "traits"]
 categories = ["no-std"]
-license = "MIT/Apache-2.0"
+license.workspace = true
 
 [dependencies]
 abs_cancel = { path = "../abs_cancel-rs" }

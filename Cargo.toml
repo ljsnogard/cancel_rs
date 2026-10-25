@@ -6,8 +6,5 @@ members = [
 ]
 resolver = "3"
 
-# `abs_sync`（`atomic_sync` 的 trait 基座）声明 `abs_cancel` 来自 gitee；本工作区
-# 使用本地 `abs_cancel-rs`，因此把该 git 源 patch 到本地，保证整张依赖图里
-# `TrCancellationToken` 只有一个来源定义。
-[patch."https://gitee.com/lino_snsalias/cancel_rs.git"]
-abs_cancel = { path = "abs_cancel-rs" }
+[workspace.package]
+license = "AGPL-3.0-or-later"
